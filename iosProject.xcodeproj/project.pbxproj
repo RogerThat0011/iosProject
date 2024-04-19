@@ -14,6 +14,7 @@
 		E99CFBDE2BD225FB004493A6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E99CFBDD2BD225FB004493A6 /* FirebaseAuth */; };
 		E99CFBE02BD225FB004493A6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E99CFBDF2BD225FB004493A6 /* FirebaseFirestore */; };
 		E99CFBE22BD225FB004493A6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E99CFBE12BD225FB004493A6 /* FirebaseDatabase */; };
+		E99CFBED2BD232F5004493A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99CFBEC2BD232F5004493A6 /* Main.storyboard */; };
 		E9E512A42BD0B19D008880C7 /* iosProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E512A32BD0B19D008880C7 /* iosProjectApp.swift */; };
 		E9E512A62BD0B19D008880C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E512A52BD0B19D008880C7 /* ContentView.swift */; };
 		E9E512A82BD0B19F008880C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E512A72BD0B19F008880C7 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		E99CFBD32BD22201004493A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E99CFBEC2BD232F5004493A6 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E9E512A02BD0B19D008880C7 /* iosProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E512A32BD0B19D008880C7 /* iosProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosProjectApp.swift; sourceTree = "<group>"; };
 		E9E512A52BD0B19D008880C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				E9E512AC2BD0B19F008880C7 /* Info.plist */,
 				E99CFBD32BD22201004493A6 /* GoogleService-Info.plist */,
 				E9E512A92BD0B19F008880C7 /* Preview Content */,
+				E99CFBEC2BD232F5004493A6 /* Main.storyboard */,
 			);
 			path = iosProject;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				E9E512AB2BD0B19F008880C7 /* Preview Assets.xcassets in Resources */,
 				E9E512A82BD0B19F008880C7 /* Assets.xcassets in Resources */,
 				E99CFBD42BD22201004493A6 /* GoogleService-Info.plist in Resources */,
+				E99CFBED2BD232F5004493A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
