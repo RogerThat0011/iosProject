@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>API_KEY</key>
+ <string>AIzaSyCe1Wterw0E2yLyAhvGgG1cJKQSuR9yZQ8</string>
+ <key>GCM_SENDER_ID</key>
+ <string>573783441784</string>
+ <key>PLIST_VERSION</key>
+ <string>1</string>
+ <key>BUNDLE_ID</key>
+ <string>com.eq6.FirebaseCrud</string>
+ <key>PROJECT_ID</key>
+ <string>proyecto-ios-d0791</string>
+ <key>STORAGE_BUCKET</key>
+ <string>proyecto-ios-d0791.appspot.com</string>
+ <key>IS_ADS_ENABLED</key>
+ <false></false>
+ <key>IS_ANALYTICS_ENABLED</key>
+ <false></false>
+ <key>IS_APPINVITE_ENABLED</key>
+ <true></true>
+ <key>IS_GCM_ENABLED</key>
+ <true></true>
+ <key>IS_SIGNIN_ENABLED</key>
+ <true></true>
+ <key>GOOGLE_APP_ID</key>
+ <string>1:573783441784:ios:c77de63b67c3ca9f7e488d</string>
+        <key>DATABASE_URL</key>
+        <string>https://proyecto-ios-d0791-default-rtdb.firebaseio.com/</string>
+</dict>
+</plist>

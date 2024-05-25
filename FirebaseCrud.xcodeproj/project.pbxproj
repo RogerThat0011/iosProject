@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4999CA105C4B595353C5CE9B /* Pods_FirebaseCrud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71D04E1535BECED8A8EADD8 /* Pods_FirebaseCrud.framework */; };
+		CF5DE2E01F84646700A43362 /* VistaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5DE2DF1F84646700A43362 /* VistaViewController.swift */; };
+		CF5DE2E21F84660F00A43362 /* Juegos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5DE2E11F84660F00A43362 /* Juegos.swift */; };
 		CF7C16231F82EE8400FE0058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7C16221F82EE8400FE0058 /* AppDelegate.swift */; };
 		CF7C16251F82EE8400FE0058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7C16241F82EE8400FE0058 /* ViewController.swift */; };
 		CF7C16281F82EE8400FE0058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7C16261F82EE8400FE0058 /* Main.storyboard */; };
 		CF7C162A1F82EE8400FE0058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7C16291F82EE8400FE0058 /* Assets.xcassets */; };
 		CF7C162D1F82EE8400FE0058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7C162B1F82EE8400FE0058 /* LaunchScreen.storyboard */; };
+		CFDE229C1F88824600932F15 /* EditarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE229B1F88824600932F15 /* EditarViewController.swift */; };
+		CFDFB7421F82F36200D0F467 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFB7411F82F36200D0F467 /* InicioViewController.swift */; };
+		CFF3125C1F8C409200B545B6 /* Celda.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF3125B1F8C409200B545B6 /* Celda.swift */; };
+		E94370342C01BA8C007A4B5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E94370332C01BA8C007A4B5E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F26DF0C4B7AB8B36D8DAAC9 /* Pods-FirebaseCrud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseCrud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseCrud/Pods-FirebaseCrud.debug.xcconfig"; sourceTree = "<group>"; };
+		CF5DE2DF1F84646700A43362 /* VistaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaViewController.swift; sourceTree = "<group>"; };
+		CF5DE2E11F84660F00A43362 /* Juegos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Juegos.swift; sourceTree = "<group>"; };
 		CF7C161F1F82EE8400FE0058 /* FirebaseCrud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseCrud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7C16221F82EE8400FE0058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF7C16241F82EE8400FE0058 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		CF7C16291F82EE8400FE0058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF7C162C1F82EE8400FE0058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF7C162E1F82EE8400FE0058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDE229B1F88824600932F15 /* EditarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarViewController.swift; sourceTree = "<group>"; };
+		CFDFB7411F82F36200D0F467 /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		CFF3125B1F8C409200B545B6 /* Celda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celda.swift; sourceTree = "<group>"; };
+		E94370332C01BA8C007A4B5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F71D04E1535BECED8A8EADD8 /* Pods_FirebaseCrud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseCrud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2F9D8A4007BE27969F20D8 /* Pods-FirebaseCrud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseCrud.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseCrud/Pods-FirebaseCrud.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4999CA105C4B595353C5CE9B /* Pods_FirebaseCrud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		173A2930739937865717071D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F26DF0C4B7AB8B36D8DAAC9 /* Pods-FirebaseCrud.debug.xcconfig */,
+				FA2F9D8A4007BE27969F20D8 /* Pods-FirebaseCrud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB60BF39F47EFC0CA2414393 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F71D04E1535BECED8A8EADD8 /* Pods_FirebaseCrud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF7C16161F82EE8400FE0058 = {
 			isa = PBXGroup;
 			children = (
 				CF7C16211F82EE8400FE0058 /* FirebaseCrud */,
 				CF7C16201F82EE8400FE0058 /* Products */,
+				173A2930739937865717071D /* Pods */,
+				CB60BF39F47EFC0CA2414393 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +91,17 @@
 			isa = PBXGroup;
 			children = (
 				CF7C16221F82EE8400FE0058 /* AppDelegate.swift */,
+				E94370332C01BA8C007A4B5E /* GoogleService-Info.plist */,
 				CF7C16241F82EE8400FE0058 /* ViewController.swift */,
+				CFDFB7411F82F36200D0F467 /* InicioViewController.swift */,
 				CF7C16261F82EE8400FE0058 /* Main.storyboard */,
 				CF7C16291F82EE8400FE0058 /* Assets.xcassets */,
 				CF7C162B1F82EE8400FE0058 /* LaunchScreen.storyboard */,
 				CF7C162E1F82EE8400FE0058 /* Info.plist */,
+				CF5DE2DF1F84646700A43362 /* VistaViewController.swift */,
+				CF5DE2E11F84660F00A43362 /* Juegos.swift */,
+				CFDE229B1F88824600932F15 /* EditarViewController.swift */,
+				CFF3125B1F8C409200B545B6 /* Celda.swift */,
 			);
 			path = FirebaseCrud;
 			sourceTree = "<group>";
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF7C16311F82EE8400FE0058 /* Build configuration list for PBXNativeTarget "FirebaseCrud" */;
 			buildPhases = (
+				510994AC0D83340C1EA5B8C9 /* [CP] Check Pods Manifest.lock */,
 				CF7C161B1F82EE8400FE0058 /* Sources */,
 				CF7C161C1F82EE8400FE0058 /* Frameworks */,
 				CF7C161D1F82EE8400FE0058 /* Resources */,
+				E79B279743D7DD3C494734B9 /* [CP] Embed Pods Frameworks */,
+				D08BE54E0FB40BF7B82392F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +142,11 @@
 					CF7C161E1F82EE8400FE0058 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -124,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF7C162D1F82EE8400FE0058 /* LaunchScreen.storyboard in Resources */,
+				E94370342C01BA8C007A4B5E /* GoogleService-Info.plist in Resources */,
 				CF7C162A1F82EE8400FE0058 /* Assets.xcassets in Resources */,
 				CF7C16281F82EE8400FE0058 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +182,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		510994AC0D83340C1EA5B8C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseCrud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D08BE54E0FB40BF7B82392F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseCrud/Pods-FirebaseCrud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E79B279743D7DD3C494734B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseCrud/Pods-FirebaseCrud-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseCrud/Pods-FirebaseCrud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF7C161B1F82EE8400FE0058 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CF7C16251F82EE8400FE0058 /* ViewController.swift in Sources */,
+				CFDFB7421F82F36200D0F467 /* InicioViewController.swift in Sources */,
+				CF5DE2E01F84646700A43362 /* VistaViewController.swift in Sources */,
+				CFF3125C1F8C409200B545B6 /* Celda.swift in Sources */,
 				CF7C16231F82EE8400FE0058 /* AppDelegate.swift in Sources */,
+				CF5DE2E21F84660F00A43362 /* Juegos.swift in Sources */,
+				CFDE229C1F88824600932F15 /* EditarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +388,14 @@
 		};
 		CF7C16321F82EE8400FE0058 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F26DF0C4B7AB8B36D8DAAC9 /* Pods-FirebaseCrud.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H6EHL55492;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FirebaseCrud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jorge.FirebaseCrud;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eq6.FirebaseCrud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +404,14 @@
 		};
 		CF7C16331F82EE8400FE0058 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2F9D8A4007BE27969F20D8 /* Pods-FirebaseCrud.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H6EHL55492;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FirebaseCrud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jorge.FirebaseCrud;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eq6.FirebaseCrud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
